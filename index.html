@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Application Forbidden</title>
-  <script type="text/javascript" src="https://b82b1763d1c3.eu-west-3.captcha-sdk.awswaf.com/b82b1763d1c3/jsapi.js" defer></script>
+  <script type="text/javascript" src="https://3709a082b57f.us-east-1.captcha-sdk.awswaf.com/3709a082b57f/jsapi.js" defer></script>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -87,7 +87,7 @@
         onSuccess: () => {
           captchaRequired = false;
           captchaError.textContent = '';
-          captchaButton.classList.remove('hidden');
+        //   captchaButton.classList.remove('hidden');
         },
         onError: (error) => {
           captchaError.textContent = error.message;
